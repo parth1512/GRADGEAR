@@ -1,0 +1,185 @@
+.Hero{
+    background-color: black;
+    display:flex;
+    height: 300px;
+    width: 100%;
+    border:2px;
+    border-color: black;
+    border-radius: 25px;
+    overflow: hidden;
+  position: relative;
+    
+}
+
+.HeroBox{
+    padding:25px;
+}
+
+.aurora-container {
+    
+    width: 100%;
+    height: 100%;
+  }
+
+  .First_Line{
+    position: absolute;
+    color: white;
+    font-weight: 550;
+    font-size: 1.7rem;
+    top: 20%; 
+    left: 4%;
+  }
+.Laptop_txt_color{
+   color:#0290FF;
+  }
+
+.outlined_text{
+    letter-spacing: 1px;
+    top:40%;
+    left: 4%;
+    font-size: 2rem;
+    font-weight: ultrabold;
+    position: absolute;
+  color: transparent;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #0290FF;
+  }
+
+.GRAD{
+    letter-spacing: 2px;
+    position: absolute;
+    color: white;
+    font-weight: ultrabold;
+    font-size: 4.5rem;
+    top: 50%; 
+    left: 4%;
+  }
+  
+  .GEAR{
+    color: transparent;
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: white;
+  }
+
+  .outlined_text_now{
+    letter-spacing: 1px;
+    top:80%;
+    left: 32%;
+    font-size: 2rem;
+    font-weight: ultrabold;
+    position: absolute;
+  color: transparent;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #0290FF;
+  }
+
+.Hero_2{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+  }
+
+.Title_txt{
+    color:black;
+}
+
+.Sub_txt{
+    color: #767676;
+    font-size: 0.8rem ;
+}
+
+.START_NOW_BUTTON{
+    letter-spacing: 2px;
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 6px;
+    background: linear-gradient(to right, #1a237e, #001027, #1a237e);
+  padding:12px 50px;
+}
+
+.Sub_txt2{
+    padding-top: 7px;
+    color: #0290FF;
+    font-size: 0.7rem ;
+}
+
+
+
+.Bottom_bar_outer {
+  margin-top: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  overflow: hidden; /* Hide overflow to ensure no empty space */
+}
+
+.logo_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.asus-row {
+  display: flex;
+  gap: 20px; /* Control space between logos */
+}
+
+.asus {
+  width: 50px; /* Set fixed width for images */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Prevent stretching */
+}
+
+
+
+.round {
+  width: 60px; /* Set fixed width for images to avoid stretching */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Prevent stretching */
+}
+
+.Work_Title{
+  align-items: center;
+}
+
+.Card{
+  
+  /* padding-left: px ; */
+  height: 300px;
+  width: 404px;
+}
+
+.Outer{
+  display: flex; /* Enables horizontal alignment of child elements */
+  gap: 55px; /* Adds space between the cards */
+  justify-content: center; /* Centers the cards horizontally */
+  align-items: center; 
+
+}
+
+.EmptyDiv{
+   height: 55px;
+   width: 100%;
+}
+
+.Card_subtxt{
+  letter-spacing: 0.5px;
+  margin-top: 4px;
+  font-size: 1.1rem;
+
+}
+
+.Card_maintxt{
+  letter-spacing: 1px;
+}
+
+.Sub_txt_Card{
+  
+  margin-top: 60px;
+  color: #767676;
+    font-size: 0.9rem ;
+}

@@ -1,0 +1,110 @@
+.inside-logo{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.main_logo{
+display:flex;
+align-items: left;
+padding:5px;
+
+}
+.navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem ;
+    background-color: var(--white);
+    border-bottom: 1px solid #000000;
+  }
+  
+  .logo-container {
+    width:100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--black);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem;
+  }
+  
+  .logo-grad {
+    color: var(--primary-blue);
+    font-weight: bold;
+    font-size: 0.75rem;
+  }
+  
+  .logo-sear {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 0.75rem;
+  }
+  
+  .search-container {
+    position: relative;
+    max-width: 30rem;
+    width: 100%;
+    margin: 0 1rem;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 2.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-family: 'Monument Extended', sans-serif;
+    font-size: 0.85rem;
+  }
+  
+  .search_icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .nav-links {
+    
+    padding-left: 20%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .nav-link {
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  .nav-link.about {
+    color: var(--primary-blue);
+  }
+  
+  .wishlist-btn {
+    
+    
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.25rem;
+  }
+
+  .button-pos{
+    position: left;
+    padding-left: 55px;
+  }
+
+.nav-link:hover{
+  color: #0290FF;
+}
