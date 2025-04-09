@@ -15,7 +15,7 @@ const Navbar = () => {
         <img src={search_icon} alt="Search" className="search_icon" />
       </div>
       <div className="nav-links">
-        <a href="#about" className="nav-link ">About us</a>
+        <a href="#about" className="nav-link about">About us</a>
         <a href="#service" className="nav-link">Service</a>
         <a href="#help" className="nav-link">Help</a>
        

@@ -20,9 +20,9 @@ export const Hero = () => {
 
      
         <h1 className="First_Line">Struggling with your <span className="Laptop_txt_color"> laptop </span>selections?</h1>
-        <h1 className="outlined_text">TRY OUT</h1> 
+        <h1 className="outlined_text">YOUR ONE STOP SOLUTION</h1> 
         <h1 className="GRAD">GRAD<span className="GEAR">GEAR</span></h1>
-        <h1 className="outlined_text_now">NOW!!!</h1> 
+        {/* <h1 className="outlined_text_now">NOW!!!</h1>  */}
     </div>
     </div>
     
