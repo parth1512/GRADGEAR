@@ -183,8 +183,7 @@
   color: #767676;
     font-size: 0.9rem ;
 }
-<<<<<<< HEAD
-=======
+
 
 
 /* Blur effect for background when pop-up is open */
@@ -232,6 +231,9 @@
   right: 20px;
   cursor: pointer;
 }
+.close-button:hover {
+  color: #007bff;
+}
 
 /* Tag button styles */
 .popup-tags {
@@ -259,17 +261,7 @@
 }
 
 /* Next button styles */
-.next-button {
-  margin-top: 90px;
-  background: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-left: 1050px;
-}
+
 
 .next-button:hover {
   background: #0056b3;
@@ -345,4 +337,94 @@ width: 800px;
 
   
 }
->>>>>>> a5859f0 (Pop up page 1 dome)
+
+
+.progress-bar {
+  position: relative;
+  bottom: 20px;
+ padding-bottom: 20px;
+  height: 20px;
+}
+
+.next-button {
+  position: relative;
+  bottom: 5px;
+  margin-top: 70px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 1050px;
+}
+
+.prog_next{
+  position: relative;
+  top:83px
+}
+
+.dots{
+  color: white;
+  letter-spacing: 10px;
+  padding-bottom: 10px;
+}
+
+.col{
+  color:#0290FF ;
+  /* text-shadow: 0 0 60px 4px rgba(0, 162, 255, 0.8); */
+}
+
+.popup-description_weight{
+  position: absolute;
+right:80px;
+padding-top:70px;
+
+width: 800px;
+}
+
+.options{
+  display: flex;
+  padding-top: 80px;
+  padding-left: 10px;
+  gap:20px
+}
+
+.option-button{
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: white;
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  /* font-size: 16px; */
+  margin-left: 20px;
+
+  /* border: 1.5px solid rgb(0, 0, 0);
+    
+   border-radius: 5px;
+    padding: 25px 40px;
+    background: transparent;
+    color:rgb(0, 0, 0);
+    position: relative;
+    left:1070px ;
+    bottom:145px; */
+}
+
+.option-button:hover {
+  background: #ffffff;
+  color: black;
+}
+ 
+.But_font{
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size:10px
+}
+
+
+
