@@ -6,6 +6,10 @@ import BottomBar from './components/BottomBar';
 import Work from './components/Work'
 import About from './components/About'
 import Footer from './components/Footer'
+<<<<<<< HEAD
+=======
+
+>>>>>>> a5859f0 (Pop up page 1 dome)
 export const App = () => {
   return (
     <>

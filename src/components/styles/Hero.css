@@ -183,3 +183,166 @@
   color: #767676;
     font-size: 0.9rem ;
 }
+<<<<<<< HEAD
+=======
+
+
+/* Blur effect for background when pop-up is open */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+  
+}
+
+/* Pop-up styles */
+.popup {
+  /* border-color: #007bff;
+  border-width: 0.2px; */
+  
+  background: black;
+  color: white;
+  border-radius: 10px;
+  height: 80%;
+  max-height: 800px;
+  width: 90%;
+  max-width: 1300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 30px 0.4px rgba(0, 162, 255, 0.8);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Close button */
+.close-button {
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  border: none;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/* Tag button styles */
+.popup-tags {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.tag {
+  border: 1px solid #007bff;
+  color: #007bff;
+  background: transparent;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tag:hover {
+  background: #007bff;
+  color: white;
+}
+
+/* Next button styles */
+.next-button {
+  margin-top: 90px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 1050px;
+}
+
+.next-button:hover {
+  background: #0056b3;
+}
+
+/* Keyframe animation for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.pop{
+  position: relative;
+  left: 450px;
+}
+.pop_and_text{
+  display: flex; 
+
+  gap: 10px;
+}
+.popup-title1{
+  z-index: 2;
+  position:relative;
+  top: 10px;
+  right: 400px;
+  color: white;
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+    text-shadow:2px 2px 4px #020201;
+
+}
+.popup-title2{
+  position:relative;
+  bottom: 30px;
+  right: 400px;
+  color: #0290FF;
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+    text-shadow: #020201;
+
+}
+
+.popup-description{
+position: absolute;
+right:140px;
+padding-top:40px;
+
+width: 800px;
+
+}
+
+.popup-description_disign{
+  text-align: left;
+  font-size: 1.2rem;
+  color: #767676;
+}
+
+.popup-subtitle_container{
+  justify-content:left;
+  padding-top: 60px;
+ 
+}
+.popup-subtitle{
+  text-align: left;
+  padding-left: 35px;
+  letter-spacing: 1px;
+
+  
+}
+>>>>>>> a5859f0 (Pop up page 1 dome)
